@@ -16,12 +16,6 @@ The analysis includes data cleaning, exploration, and visualization using Python
 
 ---
 
-## 📊 Key Insights
-- Orange Cap Winners of Each IPL Season
-- Batsmen with Highest Number of Sixes in Each IPL Season
-
----
-
 ## 🛠️ Tools & Technologies Used
 - Python
 - Pandas
@@ -33,3 +27,72 @@ The analysis includes data cleaning, exploration, and visualization using Python
 ---
 
 ## 📂 Project Structure
+IPL_PROJECT/
+│
+├── data/
+│ └── deliveries_updated_ipl_upto_2025.csv
+│
+├── output/
+│ └── top_batsmen.png
+│
+├── analysis.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+---
+
+## 📊 Key Analysis Performed
+- Data Cleaning (handling missing values, duplicates)
+- Standardizing categorical data (player names)
+- Aggregation using `value_counts()`
+- Top 10 batsmen analysis
+- Visualization using bar charts
+
+---
+
+## 📈 Sample Visualization
+![Top Batsmen](output/orange_cap_winners.png)
+![Batsmen](output/Highest_sixes.png)
+
+---
+
+## 🔍 Key Insights
+- Certain players dominate six-hitting consistently
+- Recent IPL seasons show an increase in aggressive batting
+- Data inconsistencies exist in player naming (handled during cleaning)
+
+---
+
+## 🚀 How to Run This Project
+
+### Step 1: Clone the repository
+git clone https://github.com/akriti2712/IPL-Data-Analysis.git
+
+### Step 2: Navigate to project folder
+cd IPL-DATA-ANALYSIS
+
+### Step 3: Install dependencies
+pip install -r requirements.txt
+
+### Step 4: Run Jupyter Notebook
+
+Jupyter Notebook
+---
+
+## 📁 Dataset
+- IPL dataset (ball-by-ball data)
+- File used: `deliveries_updated_ipl_upto_2025.csv`
+
+---
+
+## ⚠️ Important Notes
+- Virtual environment (`venv`) is excluded using `.gitignore`
+- All dependencies are listed in `requirements.txt`
+
+---
+
+## 👨‍💻 Author
+AKRITI SRIVASTAV
+
+---
