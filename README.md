@@ -32,8 +32,3 @@ This project analyzes IPL (Indian Premier League) data to uncover insights about
 - Batsmen with Highest Number of Sixes in Each IPL Season
 
 ---
-
-## 🚀 How to Run
-```bash
-pip install -r requirements.txt
-jupyter notebook
