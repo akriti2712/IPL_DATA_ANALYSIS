@@ -64,22 +64,6 @@ IPL_PROJECT/
 
 ---
 
-## 🚀 How to Run This Project
-
-### Step 1: Clone the repository
-git clone https://github.com/akriti2712/IPL-Data-Analysis.git
-
-### Step 2: Navigate to project folder
-cd IPL-DATA-ANALYSIS
-
-### Step 3: Install dependencies
-pip install -r requirements.txt
-
-### Step 4: Run Jupyter Notebook
-
-Jupyter Notebook
----
-
 ## 📁 Dataset
 - IPL dataset (ball-by-ball data)
 - File used: `deliveries_updated_ipl_upto_2025.csv`
