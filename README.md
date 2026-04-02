@@ -1,98 +1,39 @@
-# 📊 IPL Data Analysis Project
+# IPL Data Analysis 📊
 
 ## 📌 Project Overview
-This project focuses on analyzing IPL (Indian Premier League) match data to uncover meaningful insights about batsmen performance, six-hitting trends, and overall game patterns.
-
-The analysis includes data cleaning, exploration, and visualization using Python libraries.
+This project analyzes IPL (Indian Premier League) data to uncover insights about batsmen performance, six hitting trends, and match patterns.
 
 ---
 
 ## 🎯 Objectives
-- Identify top batsmen based on sixes
-- Analyze year-wise trends in six hitting
-- Detect inconsistencies in player names
+- Analyze top batsmen based on sixes
+- Identify yearly trends
 - Perform data cleaning and preprocessing
-- Create meaningful visualizations
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Libraries
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Jupyter Notebook (via VS Code)
 
 ---
 
-## 📂 Project Structure
-IPL_PROJECT/
-│
-├── data/
-│ └── deliveries_updated_ipl_upto_2025.csv
-│
-├── output/
-│ └── top_batsmen.png
-│
-├── analysis.ipynb
-├── requirements.txt
-├── README.md
-└── .gitignore
+## 📂 Dataset
+- Source: IPL Dataset
+- File: deliveries_updated_ipl_upto_2025.csv
 
 ---
 
-## 📊 Key Analysis Performed
-- Data Cleaning (handling missing values, duplicates)
-- Standardizing categorical data (player names)
-- Aggregation using `value_counts()`
-- Top 10 batsmen analysis
-- Visualization using bar charts
+## 📊 Key Insights
+- Orange Cap Winners of Each IPL Season
+- Batsmen with Highest Number of Sixes in Each IPL Season
 
 ---
 
-## 📈 Sample Visualization
-![Top Batsmen](output/orange_cap_winners.png)
-![Batsmen](output/Highest_sixes.png)
-
----
-
-## 🔍 Key Insights
-- Certain players dominate six-hitting consistently
-- Recent IPL seasons show an increase in aggressive batting
-- Data inconsistencies exist in player naming (handled during cleaning)
-
----
-
-## 🚀 How to Run This Project
-
-### Step 1: Clone the repository
-git clone https://github.com/akriti2712/IPL-Data-Analysis.git
-
-### Step 2: Navigate to project folder
-cd IPL-DATA-ANALYSIS
-
-### Step 3: Install dependencies
+## 🚀 How to Run
+```bash
 pip install -r requirements.txt
-
-### Step 4: Run Jupyter Notebook
-
-Jupyter Notebook
----
-
-## 📁 Dataset
-- IPL dataset (ball-by-ball data)
-- File used: `deliveries_updated_ipl_upto_2025.csv`
-
----
-
-## ⚠️ Important Notes
-- Virtual environment (`venv`) is excluded using `.gitignore`
-- All dependencies are listed in `requirements.txt`
-
----
-
-## 👨‍💻 Author
-AKRITI SRIVASTAV
-
----
+jupyter notebook
